@@ -40,6 +40,10 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
         this.mPlaces = places;
     }
 
+    public PlaceListAdapter(MainActivity mainActivity) {
+
+    }
+
     /**
      * Called when RecyclerView needs a new ViewHolder of the given type to represent an item
      *
